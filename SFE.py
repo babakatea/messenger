@@ -102,15 +102,3 @@ class SFE:
                     code = ''
 
         return self.decoded
-
-
-
-
-a = [r.randint(0, 1) for i in range(256)]
-
-b = SFE(a)
-b.encode()
-b.decode()
-print(b.coded)
-print(b.decoded)
-
