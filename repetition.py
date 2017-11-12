@@ -38,14 +38,3 @@ class Repetition:
             self.decoded.append(self.most_common(self.coded[i:i + self.repetition]))
 
         return self.decoded
-
-
-
-
-a = [1, 0, 1, 1, 1, 1]
-
-b = Repetition(a)
-b.encode()
-b.decode()
-print(b.coded)
-print(b.decoded)
