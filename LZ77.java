@@ -6,7 +6,7 @@ import java.util.Arrays;
 import java.util.Base64;
 import java.util.Random;
 
-public class LZ77 implements Algo {
+public class LZ77  {
 
     private char refprefix;
     private int refintBase;
@@ -271,6 +271,7 @@ public class LZ77 implements Algo {
         }
         return byteArray;
     }
-    
+
+
 }
 
